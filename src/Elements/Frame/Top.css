@@ -1,0 +1,45 @@
+.Top-cont {
+    margin-top: 5px;
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    
+    height: 13%;
+}
+
+.Top-tests {
+    background-color: #11314a;
+    height: 100%;
+    width: 15%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Top-quickTest {
+    height: 100%;
+    width: 25%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Top-sandbox {
+    background-color: #11314a;
+    height: 100%;
+    width: 60%;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.Top-sandbox-text {
+    margin-left: 10px;
+}

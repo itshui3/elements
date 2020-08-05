@@ -1,0 +1,35 @@
+
+.sequence-label {
+    margin-top: 25px;
+    
+}
+
+.sequence-dataWrapper {
+    display: flex;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    overflow: hidden;
+
+    font-family: "Times New Roman", Times, serif;
+}
+
+.sequencedata-left {
+    width: 10%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 12px;
+
+    background-color: #06406b;
+    
+}
+
+.sequencedata-right {
+    width: 90%;
+    display: flex;
+    align-items: center;
+
+    padding-left: 5px;
+    background-color: #113049;
+}
