@@ -1,0 +1,17 @@
+
+.bottom-cont {
+    height: 87%;
+}
+
+.bottom-dataBox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    margin: 25px;
+    
+}
+
+mark {
+    background-color: #49483f;
+}
