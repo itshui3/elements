@@ -12,7 +12,9 @@ const Nav = () => {
                 <div className='solutions_nav_scratch'>Scratchpad</div>
                 <div className='solutions_nav_ourS'>Our Solutions(s)</div>
                 <div className='solutions_nav_longLink'>Video Explanation</div>
-                <div classname='solutions_nav_runCode'>Run Code</div>
+                <div className='solutions_nav_runcode'>
+                    <p>Run Code</p>
+                </div>
             </div>
 
         </>

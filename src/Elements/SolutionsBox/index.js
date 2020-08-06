@@ -1,4 +1,4 @@
-import SolutionsBox from './SolutionsBox.js'
+import SolutionsBox from './SolutionsBox'
 
 export {
     SolutionsBox

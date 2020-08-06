@@ -1,5 +1,6 @@
 
 import React from 'react'
+import './Solutions.css'
 
 import { Nav } from './Nav'
 import { Body } from './Body'
