@@ -2,13 +2,15 @@ import React from 'react';
 import './App.css';
 // compos
 import { 
-  TestBox 
+  TestBox,
+  SolutionsBox
 } from './Elements'
 
 function App() {
     return (
         <div className="App">
-            <TestBox />
+            {/* <TestBox /> */}
+            <SolutionsBox />
         </div>
     );
 }

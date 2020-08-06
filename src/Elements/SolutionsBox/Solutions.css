@@ -1,0 +1,18 @@
+.solutions_cont {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    border-radius: 5px;
+    overflow: hidden;
+    width: 760px;
+    height: 550px;
+    background-color: #001527;
+
+    display: flex;
+    flex-direction: column;
+
+    color: white;
+    font-family: 'Chilanka', cursive;
+}

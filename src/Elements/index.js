@@ -1,5 +1,7 @@
-import TestBox from './TestBox.js'
+import TestBox from './TestBox/TestBox.js'
+import SolutionsBox from './SolutionsBox/SolutionsBox'
 
 export {
-    TestBox
+    TestBox,
+    SolutionsBox
 }
