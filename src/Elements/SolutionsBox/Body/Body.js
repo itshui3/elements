@@ -1,17 +1,21 @@
 
 import React from 'react'
-import './Body.css'
+import './Body_tab.css'
+import './Body_sandbox.css'
 
 const numbers = [
     1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21
 ]
 
-const code = `
-    function nodeDepths(root, depth = 0) {
-        if (root === null) return 0;
-        return depth + nodeDepths(root.left, depth + 1) + nodeDepths(root.right, depth + 1);
-    }
-`
+const triangles = [
+    '', '', '', '', '', '▾', '', '', '', '', '', '▾', '▾'
+]
+
+const code = [
+    'function nodeDepths(root, depth = 0) {',
+    '   if (root === null) return 0;',
+    '   return depth + nodeDepths(root.left, depth + 1) + nodeDepths(root.right, depth + 1);',
+    '}']
 
 
 const Body = () => {
@@ -35,8 +39,19 @@ const Body = () => {
                             ))
                         }
                     </div>
+                    <div className='sandbox_tri'>
+                        {
+                            triangles.map((t, i) => (
+                            <p key={i} className='sandbox_triangle'>{t}</p>
+                            ))
+                        }
+                    </div>
                     <div className='sandbox_code'>
-                        { code }
+                        { 
+                            code.map((loc, i) => (
+                                <p key={i} className='sandbox_codeLine'>{loc}</p>
+                            )) 
+                        }
                     </div>
                 </div>
             </div>

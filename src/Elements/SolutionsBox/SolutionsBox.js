@@ -10,10 +10,10 @@ const SolutionsBox = () => {
     return (
         <>
             <div className='solutions_cont'>
-                <div class>
-                    <Nav />
-                    <Body />
-                </div>
+
+                <Nav />
+                <Body />
+
             </div>
         </>
     )
