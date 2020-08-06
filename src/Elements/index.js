@@ -1,4 +1,4 @@
-import TestBox from './TestBox.js'
+import TestBox from './TestBox/TestBox.js'
 
 export {
     TestBox
